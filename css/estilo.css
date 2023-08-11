@@ -1,0 +1,570 @@
+/* Fuente de la letra descargada de google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+.material-symbols-outlined{
+    width: 50px;
+    height: 30px;
+    color: #5e1300;
+    background-color: #ffffff;
+    border: rgb(59, 24, 24) 1px solid;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    box-sizing: border-box;
+}
+
+/* LA BARRA DE NAVEGACIÓN */
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    grid-area: header;
+}
+
+header nav .container-fluid {
+    background-color: rgb(94, 59, 17);
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    padding: 5px;
+    margin-right: 55px;
+    margin-left: 18px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul .nav-item {
+    margin-right: 70px;
+    padding: 0;
+}
+
+ul .nav-item .nav-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(255, 244, 244);
+    font-size: 23px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    background-color: #fad791;
+}
+
+/*ESTILO DEL CUERPO DE LA PAGINA*/
+
+body {
+    background-color: rgb(255, 243, 228);
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fondo1 {
+    height: 100%;
+    width: 100%;
+    position: static;
+}
+
+.sub2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 18px;
+    margin: 10px auto;
+}
+
+/*////////////////////////////////////////////////////INDEX /////////////////////////////////////////////////*/
+iframe {
+    display: block;
+    position: static;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+    border: #4e3400 solid 5px;
+    flex-wrap: wrap;
+
+}
+.p-visitanos{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+    margin: 20px;
+    padding: 15px;
+    align-content: center;
+}
+.tortas {
+    text-align: center;
+    margin: 13px;
+    left: 85px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.tortas .cakes {
+    text-align: center;
+    padding: 5px;
+    height: 300px;
+    width: 250px;
+    border: 3px solid rgb(46, 27, 3);
+    color: rgb(46, 27, 3);
+    position: static;
+    flex-wrap: wrap;
+    background-color: #fde7bc;
+    margin: 15px;
+
+}
+
+.tortas .cakes img {
+    height: 200px;
+    width: 220px;
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tortas .btn {
+    color: #F1E2C5;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px;
+    position: static;
+    margin: 2px;
+    background-color: #30230a;
+    font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.tortas .h3-img {
+    color: #30230a;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.titulo-index {
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    margin: 10px;
+    font-family: 'Francois One', sans-serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+section .div-diferencia {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+
+div .info-p-img img {
+    width: 200px;
+    height: 200px;
+    background-color: #F1E2C5;
+    margin: auto;
+    padding: 5px;
+    border-radius: 50px;
+    position: static;
+    text-align: center;
+}
+
+section .div-sobre-nosotros {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+div .info-p-sobre_nosotros p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 2px;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div .info-p-sobre_nosotros {
+    text-align: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: #fcddba;
+    margin: 25px;
+    padding: 10px;
+    justify-content: center;
+}
+
+div .info-p-img p {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    margin: 5px;
+    flex-wrap: wrap;
+    font-family: 'Francois One', sans-serif;
+    justify-content: center;
+    justify-items: center;
+}
+
+div .info-p-img {
+    text-align: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: #F1E2C5;
+    margin: 25px;
+    padding: 10px;
+    justify-content: center;
+}
+
+div .info-p-img .img-index-info {
+    text-align: center;
+    justify-content: center;
+}
+
+section .parrafo-index-lf {
+    font-size: 35px;
+    text-decoration: overline;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+/*/////////////////////////////////////////////////////FORMULARIO DE REGISTRO //////////////////////////////////////////////////*/
+
+form {
+    padding-bottom: 33px;
+    position: static;
+    margin: 15px;
+}
+
+form .title-login {
+    font-size: 30px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    position: static;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 17px 34px;
+    margin: 12px auto;
+    color: #F1E2C5;
+}
+
+form .form-camps {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: rgb(153, 123, 87);
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    font-size: 15px;
+    margin: 6px auto;
+    background-color: rgb(46, 27, 3);
+    padding: 12px 13px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.form-group {
+    padding: 13px;
+    color: antiquewhite;
+    border: 6px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-regis {
+    font-size: 30px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    position: static;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 17px 34px;
+    margin: 12px auto;
+    color: #4e3400;
+}
+
+.boton-registro {
+    color: #F1E2C5;
+    background-color: rgb(66, 38, 15);
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 3px;
+    align-items: center;
+    justify-items: center;
+    border-color: rgb(255, 183, 173);
+    font-size: 25px;
+    position: static;
+}
+
+section .title-historia {
+    color: #4e3400;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+
+/*////////////////////////////////////// Aplicando grid a la pagina productos ////////////////////////////////////////*/
+
+.grid-container {
+    width: auto;
+    height: auto;
+    display: grid;
+    margin: 15px 15px 15px 15px;
+    font-family: 'Francois One', sans-serif;
+    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: start;
+    font-family: 'Francois One', sans-serif;
+    grid-template-areas: 
+    "header header header header header header header header header header" 
+    "nav nav nav nav nav nav nav nav nav nav" 
+    "main main main main main main main main main main" 
+    "footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.items-container-categoria {
+    font-size: 35px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #30230a;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.items-container-lista {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.container-filtros {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-lista-filtros {
+    margin-top: 35px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.container-lista-filtros .container-filtros-li {
+    display: flex;
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.container-lista {
+    display: block;
+    align-self: center;
+    align-items: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.container-lista .container-lista-li {
+    display: block;
+    align-self: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.container-lista-li {
+    align-items: center;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+.lista-li-af {
+    text-decoration: none;
+    color: #30230a;
+    font-size: 18px;
+}
+
+.lista-li-a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+
+.container-tortas-grid {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.container-tortas-grid .cakes-grid img {
+    height: 195px;
+    width: 265px;
+    position: static;
+    background-color: #fde7bc;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.container-tortas-grid .cakes-grid {
+    text-align: center;
+    padding: 0;
+    margin: 15px;
+    height: 270px;
+    width: 270px;
+    border-color: rgb(46, 27, 3);
+    color: rgb(46, 27, 3);
+    position: static;
+    flex-wrap: wrap;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+
+}
+
+.cakes-grid {
+    border: 3px solid rgb(46, 27, 3);
+    background-color: #fff7e7;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container-tortas-grid .cakes-grid .btn-grid {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 5px;
+    background-color: #30230a;
+    font-size: 15px;
+
+}
+
+.container-tortas-grid .h3-img-grid {
+    color: #30230a;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.btn-sig {
+    width: auto;
+    height: auto;
+    justify-content: end;
+    align-self: flex-end;
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.btnes {
+    background-color: #F1E2C5;
+    width: 30px;
+    height: 30px;
+    color: #30230a;
+    border: 2px solid #30230a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    justify-content: end;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+/*PIE DE PAGINA*/
+footer div .container {
+    background-color: #30230a;
+}
