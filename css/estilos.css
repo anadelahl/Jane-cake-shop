@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+  box-sizing: border-box; }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; }
+
+.material-symbols-outlined {
+  width: 50px;
+  height: 30px;
+  color: #5e1300;
+  background-color: #ffffff;
+  border: #3b1818 1px solid;
+  border-radius: 5px; }
+
+.container-pag {
+  background-color: #fff3e4;
+  font-family: 'EB Garamond', serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "header header header header" "navbar navbar navbar navbar" "main-container main-container main-container main-container" "footer footer footer footer";
+  width: 100%;
+  height: 100%; }
+
+@media screen and (max-width: 470px) {
+  .container-pag {
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header header" "navbar navbar" "main-container main-container" "footer footer"; }
+    .container-pag main {
+      grid-area: main-container; }
+      .container-pag main .bienvenido-p .bienvenido-p .p-pc {
+        display: none; }
+      .container-pag main .grid-container {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center; }
+        .container-pag main .grid-container .items-container-lista {
+          display: none; }
+        .container-pag main .grid-container .container-filtros {
+          display: none; }
+        .container-pag main .grid-container .container-tortas-grid {
+          grid-column-start: 1;
+          grid-row-start: 1; }
+      .container-pag main .index-info h3 {
+        font-size: 10px;
+        margin: 5px;
+        padding: 10px;
+        flex-wrap: wrap; }
+      .container-pag main .index-info .visitanos p {
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        flex-wrap: wrap; } }
+
+@media screen and (max-width: 650px) {
+  .container-pag {
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header header" "navbar navbar" "main-container main-container" "footer footer";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; }
+    .container-pag main {
+      grid-area: main-container; }
+      .container-pag main .bienvenido-p .p-pc {
+        display: none; }
+      .container-pag main .grid-container {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center; }
+        .container-pag main .grid-container .items-container-lista {
+          display: none; }
+        .container-pag main .grid-container .container-filtros {
+          display: none; }
+        .container-pag main .grid-container .container-tortas-grid {
+          grid-column-start: 1;
+          grid-row-start: 1; }
+      .container-pag main .index-info h3 {
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        flex-wrap: wrap; } }
+
+@media screen and (max-width: 848px) {
+  .container-pag {
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "header header header" "navbar navbar navbar" "main-container main-container main-container " "footer footer footer";
+    width: 100%;
+    height: 100%; }
+    .container-pag main {
+      grid-area: main-container; }
+      .container-pag main .productos .p-pc {
+        display: none; }
+      .container-pag main .productos .grid-container {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center; }
+        .container-pag main .productos .grid-container .items-container-lista {
+          display: none; }
+        .container-pag main .productos .grid-container .container-filtros {
+          display: none; }
+        .container-pag main .productos .grid-container .container-tortas-grid {
+          grid-column-start: 1;
+          grid-row-start: 1;
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+          margin: 0; } }
+
+@media screen and (min-width: 848px) {
+  main {
+    grid-area: main-container; }
+    main .productos .bienvenido-p .p-media {
+      display: none;
+      overflow: hidden; } }
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  grid-area: header; }
+  header nav {
+    grid-area: navbar; }
+    header nav .container-fluid {
+      background-color: #5e3b11;
+      padding: 10px;
+      display: flex;
+      align-items: center; }
+      header nav .container-fluid .logo img {
+        height: 100px;
+        padding: 5px;
+        margin-right: 60px;
+        margin-left: 40px; }
+      header nav .container-fluid .navbar-toggler {
+        background-color: #fad791; }
+      header nav .container-fluid div .navbar-nav {
+        margin: 0;
+        padding: 0;
+        display: flex; }
+        header nav .container-fluid div .navbar-nav .nav-item {
+          margin-right: 70px;
+          padding: 0; }
+          header nav .container-fluid div .navbar-nav .nav-item .nav-link {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color: #fff4f4;
+            font-size: 23px;
+            align-items: center;
+            justify-content: space-between; }
+
+footer {
+  grid-area: footer;
+  margin-top: auto;
+  position: sticky;
+  text-align: center; }
+
+body .main-container {
+  grid-area: main-container; }
+  body .main-container .fondo-nombre .fondo1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    position: static; }
+  body .main-container .index-info .titulo-index {
+    text-align: center;
+    font-size: 35px;
+    padding: 2px;
+    margin: 10px;
+    font-family: 'Francois One', sans-serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; }
+  body .main-container .index-info .parrafo1-index {
+    font-size: 25px;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 5px; }
+  body .main-container .index-info .div-diferencia {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap; }
+    body .main-container .index-info .div-diferencia .info-p-img {
+      text-align: center;
+      border-radius: 25px;
+      width: 300px;
+      height: 370px;
+      display: block;
+      background-color: #F1E2C5;
+      margin: 25px;
+      padding: 10px;
+      justify-content: center; }
+      body .main-container .index-info .div-diferencia .info-p-img .img-index-info {
+        width: 250px;
+        height: 250px;
+        background-color: #F1E2C5;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 50px;
+        position: static;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center; }
+      body .main-container .index-info .div-diferencia .info-p-img .parrafo-index {
+        text-align: center;
+        font-size: 20px;
+        padding: 2px;
+        margin: 5px;
+        flex-wrap: wrap;
+        font-family: 'Francois One', sans-serif;
+        justify-content: center;
+        justify-items: center; }
+  body .main-container .index-info .parrafo-index-lf {
+    font-size: 35px;
+    font-family: 'Francois One', sans-serif;
+    text-decoration: overline;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 5px; }
+  body .main-container .index-info .mapa {
+    display: flex;
+    position: static;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    border: #4e3400 solid 5px;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap; }
+  body .main-container .index-info .visitanos p {
+    text-align: justify;
+    font-size: 25px;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+    align-content: center; }
+  body .main-container .index-info .sub2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Francois One', sans-serif; }
+  body .main-container .index-info .tortas {
+    text-align: center;
+    margin: 13px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    position: static;
+    width: auto;
+    height: auto; }
+    body .main-container .index-info .tortas .cakes {
+      text-align: center;
+      padding: 0;
+      height: 350px;
+      width: 250px;
+      border: 3px solid #2e1b03;
+      color: #2e1b03;
+      position: static;
+      flex-wrap: wrap;
+      background-color: #fde7bc;
+      margin: 15px; }
+      body .main-container .index-info .tortas .cakes img {
+        height: 200px;
+        width: 240px;
+        position: static;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; }
+      body .main-container .index-info .tortas .cakes .h3-img {
+        color: #30230a;
+        text-align: center;
+        border-radius: 3px;
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+        flex-wrap: wrap; }
+      body .main-container .index-info .tortas .cakes .btn {
+        color: #F1E2C5;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 3px;
+        padding: 8px;
+        position: static;
+        margin: 2px;
+        background-color: #30230a;
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center; }
+
+main {
+  grid-area: main-container; }
+  main .productos .bienvenido-p {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    text-align: center; }
+    main .productos .bienvenido-p h1 {
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 35px;
+      text-decoration: dotted; }
+    main .productos .bienvenido-p p {
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 25px; }
+  main .productos .grid-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: start;
+    position: static; }
+    main .productos .grid-container .items-container-lista {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-right: 15px;
+      margin-left: 35px;
+      align-items: start;
+      text-decoration: none;
+      grid-column-start: 1; }
+      main .productos .grid-container .items-container-lista .items-container-categoria {
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+        justify-items: center;
+        align-items: center;
+        text-decoration: none;
+        color: #30230a;
+        margin-top: 5px;
+        margin-left: 5px; }
+      main .productos .grid-container .items-container-lista .container-lista {
+        align-items: start;
+        margin-right: 5px;
+        text-decoration: none;
+        display: block;
+        justify-items: start;
+        margin-top: 0; }
+        main .productos .grid-container .items-container-lista .container-lista .container-lista-li {
+          margin-right: 15px;
+          padding: 5px;
+          text-decoration: none;
+          display: flex;
+          align-items: start;
+          font-size: 25px;
+          padding-top: 15px; }
+          main .productos .grid-container .items-container-lista .container-lista .container-lista-li .lista-li-a {
+            text-decoration: none;
+            font-size: 25px;
+            color: #000000; }
+    main .productos .grid-container .container-filtros {
+      text-align: center;
+      color: #000000;
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      grid-row-start: 1;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      margin-top: 75px;
+      margin-left: 20px; }
+      main .productos .grid-container .container-filtros .container-lista-filtros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-decoration: none;
+        padding: 0; }
+        main .productos .grid-container .container-filtros .container-lista-filtros .container-filtros-li {
+          display: flex;
+          margin-right: 15px;
+          padding: 5px;
+          text-decoration: none; }
+          main .productos .grid-container .container-filtros .container-lista-filtros .container-filtros-li .lista-li-af {
+            text-decoration: none;
+            color: #30230a;
+            font-size: 18px; }
+    main .productos .grid-container .container-tortas-grid {
+      grid-column-start: 2;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 6;
+      flex-wrap: wrap;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-content: start;
+      flex-wrap: wrap; }
+      main .productos .grid-container .container-tortas-grid .cakes-grid {
+        text-align: center;
+        padding: 0;
+        margin: 25px;
+        height: 320px;
+        width: 270px;
+        border: #2e1b03 solid 1px;
+        color: #2e1b03;
+        flex-wrap: wrap;
+        background-color: #fde7bc; }
+        main .productos .grid-container .container-tortas-grid .cakes-grid .grid-img {
+          height: 195px;
+          width: 265px;
+          text-align: center;
+          padding: 0;
+          margin-bottom: 5px;
+          flex-wrap: wrap; }
+        main .productos .grid-container .container-tortas-grid .cakes-grid .h3-img-grid {
+          color: #30230a;
+          text-align: center;
+          font-size: 20px;
+          margin-top: 5px;
+          padding: 0; }
+        main .productos .grid-container .container-tortas-grid .cakes-grid p {
+          font-size: 20px;
+          margin: 5px; }
+        main .productos .grid-container .container-tortas-grid .cakes-grid .btn-grid {
+          color: #ffffff;
+          text-decoration: none;
+          text-align: center;
+          border-radius: 3px;
+          padding: 5px;
+          margin: 0;
+          background-color: #30230a;
+          font-size: 20px; }
+  main .productos .botones {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 4;
+    grid-column-end: 5; }
+    main .productos .botones .btn-sig {
+      border-radius: 3px;
+      padding: 8px;
+      margin: 5px;
+      background-color: #30230a;
+      position: static;
+      display: flex;
+      flex-direction: row;
+      width: 30px;
+      height: 40px;
+      text-align: center; }
+      main .productos .botones .btn-sig a {
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        background-color: #30230a; }
+
+main {
+  grid-area: main-container; }
+  main .form-registro form {
+    padding-bottom: 33px;
+    position: static;
+    margin: 15px; }
+    main .form-registro form .form-camps {
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      border: #997b57;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      max-width: 500px;
+      font-size: 15px;
+      margin: 6px auto;
+      background-color: #2e1b03;
+      padding: 12px 13px;
+      border-radius: 5px;
+      flex-wrap: wrap; }
+      main .form-registro form .form-camps .title-login {
+        font-size: 30px;
+        text-decoration: dotted;
+        text-transform: uppercase;
+        position: static;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        padding: 17px 34px;
+        margin: 12px auto;
+        color: #F1E2C5; }
+      main .form-registro form .form-camps .form-group {
+        padding: 13px;
+        color: antiquewhite;
+        border: 6px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        main .form-registro form .form-camps .form-group label {
+          display: block; }
+      main .form-registro form .form-camps input {
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap; }
+      main .form-registro form .form-camps .boton-registro {
+        color: #F1E2C5;
+        background-color: #42260f;
+        padding: 12px;
+        margin: 12px;
+        text-align: center;
+        border-radius: 3px;
+        align-items: center;
+        justify-items: center;
+        border-color: #ffb7ad;
+        font-size: 25px;
+        position: static; }
+
+main {
+  grid-area: main-container; }
+  main .form-registro .title-regis {
+    font-size: 30px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    position: static;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 17px 34px;
+    margin: 12px auto;
+    color: #412e0a; }
+  main .form-registro form {
+    padding-bottom: 33px;
+    position: static;
+    margin: 15px; }
+    main .form-registro form .form-camps {
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      border: #997b57;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      max-width: 500px;
+      font-size: 15px;
+      margin: 6px auto;
+      background-color: #2e1b03;
+      padding: 12px 13px;
+      border-radius: 5px;
+      flex-wrap: wrap; }
+      main .form-registro form .form-camps .form-group {
+        padding: 13px;
+        color: antiquewhite;
+        border: 6px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        main .form-registro form .form-camps .form-group label {
+          display: block; }
+      main .form-registro form .form-camps input {
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap; }
+      main .form-registro form .form-camps .boton-registro {
+        color: #F1E2C5;
+        background-color: #42260f;
+        padding: 12px;
+        margin: 12px;
+        text-align: center;
+        border-radius: 3px;
+        align-items: center;
+        justify-items: center;
+        border-color: #ffb7ad;
+        font-size: 25px;
+        position: static; }
+
+main {
+  grid-area: main-container; }
+  main .info-sobrenosotros .title-historia {
+    color: #4e3400;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px; }
+  main .info-sobrenosotros .div-sobre-nosotros {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap; }
+    main .info-sobrenosotros .div-sobre-nosotros .info-p-sobre_nosotros {
+      text-align: center;
+      border-radius: 25px;
+      width: 300px;
+      height: 350px;
+      display: block;
+      background-color: #ffebc3;
+      margin: 25px;
+      padding: 10px;
+      justify-content: center; }
+      main .info-sobrenosotros .div-sobre-nosotros .info-p-sobre_nosotros p {
+        text-align: justify;
+        font-size: 17px;
+        padding: 2px;
+        margin: 5px;
+        flex-wrap: wrap;
+        justify-content: center; }

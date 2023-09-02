@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+.material-symbols-outlined {
+    width: 50px;
+    height: 30px;
+    color: #5e1300;
+    background-color: #ffffff;
+    border: rgb(59, 24, 24) 1px solid;
+    border-radius: 5px;
+}
+
+.container-pag {
+    background-color: rgb(255, 243, 228);
+    font-family: 'EB Garamond', serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "header header header header"
+        "navbar navbar navbar navbar"
+        "main-container main-container main-container main-container"
+        "footer footer footer footer";
+        width: 100%;
+        height: 100%;
+}

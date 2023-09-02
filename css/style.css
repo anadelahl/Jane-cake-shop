@@ -30,7 +30,7 @@
 
 /* LA BARRA DE NAVEGACIÓN */
 
-body .header {
+header {
     position: sticky;
     top: 0;
     padding: 0;
@@ -46,14 +46,14 @@ header nav .container-fluid {
 
 }
 
-header nav div.logo img {
+header nav div .logo img {
     height: 100px;
     padding: 5px;
     margin-right: 60px;
     margin-left: 40px;
 }
 
-body header .navbar {
+header .navbar-nav {
     grid-area: navbar;
 }
 
@@ -172,7 +172,6 @@ iframe {
     flex-wrap: wrap;
     background-color: #fde7bc;
     margin: 15px;
-
 }
 
 .tortas .cakes img {

@@ -1,0 +1,46 @@
+main {
+    grid-area: main-container;
+
+    .info-sobrenosotros {
+        .title-historia {
+            color: #4e3400;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 40px;
+        }
+
+        .div-sobre-nosotros {
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            display: flex;
+            width: auto;
+            height: auto;
+            flex-wrap: wrap;
+
+            .info-p-sobre_nosotros {
+                text-align: center;
+                border-radius: 25px;
+                width: 300px;
+                height: 350px;
+                display: block;
+                background-color: #ffebc3;
+                margin: 25px;
+                padding: 10px;
+                justify-content: center;
+
+                p {
+                    text-align: justify;
+                    font-size: 17px;
+                    padding: 2px;
+                    margin: 5px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

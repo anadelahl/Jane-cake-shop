@@ -1,0 +1,180 @@
+@media screen and (max-width: 470px) {
+    .container-pag {
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "header header"
+            "navbar navbar"
+            "main-container main-container"
+            "footer footer";
+
+        main {
+            grid-area: main-container;
+
+            .bienvenido-p {
+                .bienvenido-p .p-pc {
+                    display: none;
+                }
+            }
+
+            .grid-container {
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                justify-items: center;
+                align-items: center;
+
+                .items-container-lista {
+                    display: none;
+                }
+
+                .container-filtros {
+                    display: none;
+                }
+
+                .container-tortas-grid {
+                    grid-column-start: 1;
+                    grid-row-start: 1;
+                }
+            }
+
+            .index-info {
+
+                h3 {
+                    font-size: 10px;
+                    margin: 5px;
+                    padding: 10px;
+                    flex-wrap: wrap;
+                }
+
+                .visitanos {
+                    p {
+                        font-size: 20px;
+                        padding: 10px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container-pag {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "header header"
+            "navbar navbar"
+            "main-container main-container"
+            "footer footer";
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+
+        main {
+            grid-area: main-container;
+
+            .bienvenido-p {
+                .p-pc {
+                    display: none;
+                }
+            }
+
+            .grid-container {
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                justify-items: center;
+                align-items: center;
+
+                .items-container-lista {
+                    display: none;
+                }
+
+                .container-filtros {
+                    display: none;
+                }
+
+                .container-tortas-grid {
+                    grid-column-start: 1;
+                    grid-row-start: 1;
+                }
+            }
+
+            .index-info {
+
+                h3 {
+                    font-size: 25px;
+                    margin: 5px;
+                    padding: 5px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 848px) {
+    .container-pag {
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "header header header"
+            "navbar navbar navbar"
+            "main-container main-container main-container "
+            "footer footer footer";
+            width: 100%;
+            height: 100%;
+            main {
+                grid-area: main-container;
+            .productos {
+                .p-pc {
+                    display: none;
+                }
+
+                .grid-container {
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    justify-items: center;
+                    align-items: center;
+
+                    .items-container-lista {
+                        display: none;
+                    }
+
+                    .container-filtros {
+                        display: none;
+                    }
+
+                    .container-tortas-grid {
+                        grid-column-start: 1;
+                        grid-row-start: 1;
+                        justify-content: center;
+                        justify-items: center;
+                        align-items: center;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 848px) {
+
+    main {
+        grid-area: main-container;
+
+        .productos {
+            .bienvenido-p{
+            .p-media {
+                display: none;
+                overflow: hidden;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,218 @@
+main {
+    grid-area: main-container;
+
+    .productos {
+
+        .bienvenido-p {
+            width: auto;
+            height: auto;
+            margin: 5px;
+            text-align: center;
+
+            h1 {
+                justify-content: center;
+                align-content: center;
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 35px;
+                text-decoration: dotted;
+            }
+
+            p {
+                justify-content: center;
+                align-content: center;
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 25px;
+            }
+        }
+
+        .grid-container {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            margin: 0;
+            padding: 0;
+            font-family: 'Francois One', sans-serif;
+            grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+            grid-template-columns: auto 1fr 1fr 1fr;
+            justify-items: start;
+            align-items: start;
+            position: static;
+
+            .items-container-lista {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-right: 15px;
+                margin-left: 35px;
+                align-items: start;
+                text-decoration: none;
+                grid-column-start: 1;
+
+                .items-container-categoria {
+                    font-size: 30px;
+                    text-align: center;
+                    padding: 5px;
+                    justify-items: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #30230a;
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+
+                .container-lista {
+                    align-items: start;
+                    margin-right: 5px;
+                    text-decoration: none;
+                    display: block;
+                    justify-items: start;
+                    margin-top: 0;
+
+                    .container-lista-li {
+                        margin-right: 15px;
+                        padding: 5px;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: start;
+                        font-size: 25px;
+                        padding-top: 15px;
+
+                        .lista-li-a {
+                            text-decoration: none;
+                            font-size: 25px;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+
+            .container-filtros {
+                text-align: center;
+                color: #000000;
+                flex-direction: row;
+                display: flex;
+                flex-wrap: wrap;
+                grid-row-start: 1;
+                grid-column-start: 2;
+                grid-column-end: 5;
+                margin-top: 75px;
+                margin-left: 20px;
+
+                .container-lista-filtros {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    text-decoration: none;
+                    padding: 0;
+
+                    .container-filtros-li {
+                        display: flex;
+                        margin-right: 15px;
+                        padding: 5px;
+                        text-decoration: none;
+
+                        .lista-li-af {
+                            text-decoration: none;
+                            color: #30230a;
+                            font-size: 18px;
+                        }
+
+                    }
+                }
+            }
+
+            .container-tortas-grid {
+                grid-column-start: 2;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 6;
+                flex-wrap: wrap;
+                display: flex;
+                margin: 0;
+                padding: 0;
+                justify-content: start;
+                flex-wrap: wrap;
+
+                .cakes-grid {
+                    text-align: center;
+                    padding: 0;
+                    margin: 25px;
+                    height: 320px;
+                    width: 270px;
+                    border: rgb(46, 27, 3) solid 1px;
+                    color: rgb(46, 27, 3);
+                    flex-wrap: wrap;
+                    background-color: #fde7bc;
+
+                    .grid-img {
+                        height: 195px;
+                        width: 265px;
+                        text-align: center;
+                        padding: 0;
+                        margin-bottom: 5px;
+                        flex-wrap: wrap;
+                    }
+
+                    .h3-img-grid {
+                        color: #30230a;
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 5px;
+                        padding: 0;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        margin: 5px;
+                    }
+
+                    .btn-grid {
+                        color: #ffffff;
+                        text-decoration: none;
+                        text-align: center;
+                        border-radius: 3px;
+                        padding: 5px;
+                        margin: 0;
+                        background-color: #30230a;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .botones {
+            width: auto;
+            height: auto;
+            justify-content: center;
+            align-content: center;
+            position: static;
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 4;
+            grid-column-end: 5;
+
+            .btn-sig {
+                border-radius: 3px;
+                padding: 8px;
+                margin: 5px;
+                background-color: #30230a;
+                position: static;
+                display: flex;
+                flex-direction: row;
+                width: 30px;
+                height: 40px;
+                text-align: center;
+
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    text-align: center;
+                    background-color: #30230a;
+                }
+            }
+        }
+    }
+}
