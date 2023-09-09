@@ -1,0 +1,102 @@
+main {
+    grid-area: main-container;
+
+    .mirarproductos {
+        margin-bottom: 20px;
+        padding: 10px;
+
+        .grid-productos {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-items: start;
+            align-items: start;
+            position: static;
+            justify-content: space-evenly;
+
+            .cakes {
+                text-align: center;
+                padding: 5px;
+                margin-left: 50px;
+                height: 100%;
+                width: 100%;
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: flex-start;
+
+                .img {
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    padding: 0;
+                    margin-bottom: 5px;
+                    flex-wrap: wrap;
+                }
+
+                .h3-img {
+                    color: #30230a;
+                    text-align: start;
+                    font-size: 50px;
+                    margin-top: 5px;
+                    padding: 0;
+                    font-family: 'Francois one', sans-serif;
+                }
+
+            }
+
+            .productos-descripcion {
+                text-align: start;
+                padding: 10px;
+                margin-bottom: 0;
+                margin-right: 50px;
+                margin-left: 10px;
+                height: 100%;
+                width: 100%;
+                color: rgb(46, 27, 3);
+                background-color: rgb(248, 232, 209);
+                flex-direction: column;
+                display: flex;
+                justify-content: flex-start;
+
+                .h3-img {
+                    color: #30230a;
+                    text-align: start;
+                    font-size: 50px;
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Francois one', sans-serif;
+                }
+
+                .p-descripcion {
+                    color: #30230a;
+                    font-size: 29px;
+                    margin: 5px;
+                    padding: 5px;
+                    font-family: 'Jacques Francois', serif;
+                }
+
+                .botones {
+                    margin: 5px;
+                    display: flex;
+                    width: auto;
+                    height: auto;
+
+                    .boton {
+                        color: #ffffff;
+                        text-decoration: none;
+                        text-align: center;
+                        background-color: #30230a;
+                        width: 100%;
+                        height: 100%;
+                        padding: 10px;
+                        font-size: 20px;
+                        margin: 5px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

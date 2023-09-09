@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -126,6 +127,30 @@
     main .productos .bienvenido-p .p-media {
       display: none;
       overflow: hidden; } }
+
+@media screen and (max-width: 998px) {
+  main {
+    grid-area: main-container; }
+    main .mirarproductos .grid-productos {
+      display: flex;
+      flex-wrap: wrap; }
+      main .mirarproductos .grid-productos .cakes {
+        margin-left: 30px;
+        margin-right: 30px;
+        align-content: center; }
+        main .mirarproductos .grid-productos .cakes .img {
+          height: 100%;
+          width: 100%;
+          text-align: center;
+          padding: 0;
+          margin-bottom: 5px;
+          flex-wrap: wrap; }
+      main .mirarproductos .grid-productos .productos-descripcion {
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        align-content: center; } }
 
 header {
   position: sticky;
@@ -399,7 +424,7 @@ main {
       grid-row-start: 1;
       grid-column-start: 2;
       grid-column-end: 5;
-      margin-top: 75px;
+      margin-top: 15px;
       margin-left: 20px; }
       main .productos .grid-container .container-filtros .container-lista-filtros {
         display: flex;
@@ -419,13 +444,14 @@ main {
     main .productos .grid-container .container-tortas-grid {
       grid-column-start: 2;
       grid-column-end: 5;
-      grid-row-start: 2;
+      grid-row-start: 1;
       grid-row-end: 6;
       flex-wrap: wrap;
       display: flex;
       margin: 0;
+      margin-top: 70px;
       padding: 0;
-      justify-content: start;
+      justify-content: flex-start;
       flex-wrap: wrap; }
       main .productos .grid-container .container-tortas-grid .cakes-grid {
         text-align: center;
@@ -488,6 +514,87 @@ main {
         text-decoration: none;
         text-align: center;
         background-color: #30230a; }
+
+main {
+  grid-area: main-container; }
+  main .mirarproductos {
+    margin-bottom: 20px;
+    padding: 10px; }
+    main .mirarproductos .grid-productos {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-items: start;
+      align-items: start;
+      position: static;
+      justify-content: space-evenly; }
+      main .mirarproductos .grid-productos .cakes {
+        text-align: center;
+        padding: 5px;
+        margin-left: 50px;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: flex-start; }
+        main .mirarproductos .grid-productos .cakes .img {
+          height: 100%;
+          width: 100%;
+          text-align: center;
+          padding: 0;
+          margin-bottom: 5px;
+          flex-wrap: wrap; }
+        main .mirarproductos .grid-productos .cakes .h3-img {
+          color: #30230a;
+          text-align: start;
+          font-size: 50px;
+          margin-top: 5px;
+          padding: 0;
+          font-family: 'Francois one', sans-serif; }
+      main .mirarproductos .grid-productos .productos-descripcion {
+        text-align: start;
+        padding: 10px;
+        margin-bottom: 0;
+        margin-right: 50px;
+        margin-left: 10px;
+        height: 100%;
+        width: 100%;
+        color: #2e1b03;
+        background-color: #f8e8d1;
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start; }
+        main .mirarproductos .grid-productos .productos-descripcion .h3-img {
+          color: #30230a;
+          text-align: start;
+          font-size: 50px;
+          margin: 0;
+          padding: 0;
+          font-family: 'Francois one', sans-serif; }
+        main .mirarproductos .grid-productos .productos-descripcion .p-descripcion {
+          color: #30230a;
+          font-size: 29px;
+          margin: 5px;
+          padding: 5px;
+          font-family: 'Jacques Francois', serif; }
+        main .mirarproductos .grid-productos .productos-descripcion .botones {
+          margin: 5px;
+          display: flex;
+          width: auto;
+          height: auto; }
+          main .mirarproductos .grid-productos .productos-descripcion .botones .boton {
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            background-color: #30230a;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 5px; }
 
 main {
   grid-area: main-container; }
