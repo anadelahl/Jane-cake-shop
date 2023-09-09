@@ -143,29 +143,34 @@ header {
   top: 0;
   padding: 0;
   margin: 0;
-  grid-area: header; }
-  header nav {
-    grid-area: navbar; }
-    header nav .container-fluid {
+  grid-area: header;
+  z-index: 1; }
+  header .navbar {
+    grid-area: navbar;
+    z-index: 1; }
+    header .navbar .container-fluid {
       background-color: #5e3b11;
       padding: 10px;
       display: flex;
       align-items: center; }
-      header nav .container-fluid .logo img {
+      header .navbar .container-fluid .logo img {
         height: 100px;
         padding: 5px;
         margin-right: 60px;
         margin-left: 40px; }
-      header nav .container-fluid .navbar-toggler {
+      header .navbar .container-fluid .navbar-toggler {
         background-color: #fad791; }
-      header nav .container-fluid div .navbar-nav {
+      header .navbar .container-fluid li:hover {
+        background-color: #684500;
+        color: #c99c66; }
+      header .navbar .container-fluid div .navbar-nav {
         margin: 0;
         padding: 0;
         display: flex; }
-        header nav .container-fluid div .navbar-nav .nav-item {
+        header .navbar .container-fluid div .navbar-nav .nav-item {
           margin-right: 70px;
           padding: 0; }
-          header nav .container-fluid div .navbar-nav .nav-item .nav-link {
+          header .navbar .container-fluid div .navbar-nav .nav-item .nav-link {
             margin: 0;
             padding: 0;
             text-decoration: none;
@@ -215,6 +220,11 @@ body .main-container {
     width: auto;
     height: auto;
     flex-wrap: wrap; }
+    body .main-container .index-info .div-diferencia div:hover {
+      box-shadow: 5px 5px 20px #30230a;
+      transform: translateY(-5%);
+      cursor: default;
+      transition: all 500ms ease; }
     body .main-container .index-info .div-diferencia .info-p-img {
       text-align: center;
       border-radius: 25px;
@@ -224,7 +234,8 @@ body .main-container {
       background-color: #F1E2C5;
       margin: 25px;
       padding: 10px;
-      justify-content: center; }
+      justify-content: center;
+      box-shadow: 0px 1px 5px #30230a; }
       body .main-container .index-info .div-diferencia .info-p-img .img-index-info {
         width: 250px;
         height: 250px;
@@ -291,6 +302,11 @@ body .main-container {
     position: static;
     width: auto;
     height: auto; }
+    body .main-container .index-info .tortas div:hover {
+      box-shadow: 5px 5px 20px #30230a;
+      transform: translateY(-5%);
+      cursor: default;
+      transition: all 500ms ease; }
     body .main-container .index-info .tortas .cakes {
       text-align: center;
       padding: 0;
@@ -439,6 +455,11 @@ main {
       padding: 0;
       justify-content: flex-start;
       flex-wrap: wrap; }
+      main .productos .grid-container .container-tortas-grid div:hover {
+        box-shadow: 5px 5px 20px #30230a;
+        transform: translateY(-5%);
+        cursor: default;
+        transition: all 500ms ease; }
       main .productos .grid-container .container-tortas-grid .cakes-grid {
         text-align: center;
         padding: 0;
@@ -717,6 +738,11 @@ main {
     width: auto;
     height: auto;
     flex-wrap: wrap; }
+    main .info-sobrenosotros .div-sobre-nosotros div:hover {
+      box-shadow: 5px 5px 20px #30230a;
+      transform: translateY(-5%);
+      cursor: default;
+      transition: all 500ms ease; }
     main .info-sobrenosotros .div-sobre-nosotros .info-p-sobre_nosotros {
       text-align: center;
       border-radius: 25px;
@@ -734,3 +760,7 @@ main {
         margin: 5px;
         flex-wrap: wrap;
         justify-content: center; }
+      main .info-sobrenosotros .div-sobre-nosotros .info-p-sobre_nosotros img {
+        width: 50px;
+        height: 50px;
+        flex-wrap: wrap; }
