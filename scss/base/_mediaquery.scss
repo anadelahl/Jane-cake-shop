@@ -125,10 +125,12 @@
             "navbar navbar navbar"
             "main-container main-container main-container "
             "footer footer footer";
-            width: 100%;
-            height: 100%;
-            main {
-                grid-area: main-container;
+        width: 100%;
+        height: 100%;
+
+        main {
+            grid-area: main-container;
+
             .productos {
                 .p-pc {
                     display: none;
@@ -169,14 +171,14 @@
         grid-area: main-container;
 
         .productos {
-            .bienvenido-p{
-            .p-media {
-                display: none;
-                overflow: hidden;
+            .bienvenido-p {
+                .p-media {
+                    display: none;
+                    overflow: hidden;
+                }
             }
         }
     }
-}
 }
 
 @media screen and (max-width: 998px) {
@@ -185,16 +187,16 @@
         grid-area: main-container;
 
         .mirarproductos {
-            .grid-productos{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            
-            .cakes {
-                align-content: center;
-    
+            .grid-productos {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .cakes {
+                    align-content: center;
+
+                }
+            }
+        }
     }
-    }
-}
-}
 }

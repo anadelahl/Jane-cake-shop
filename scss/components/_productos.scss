@@ -137,6 +137,13 @@ main {
                 justify-content: flex-start;
                 flex-wrap: wrap;
 
+                div:hover {
+                    box-shadow: 5px 5px 20px #30230a;
+                    transform: translateY(-5%);
+                    cursor: default;
+                    transition: all 500ms ease;
+                }
+
                 .cakes-grid {
                     text-align: center;
                     padding: 0;
