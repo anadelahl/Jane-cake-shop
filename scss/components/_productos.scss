@@ -71,6 +71,10 @@ main {
                     justify-items: start;
                     margin-top: 0;
 
+                    .container-lista-li:hover {
+                        background-color: #ffeecc;
+                    }
+
                     .container-lista-li {
                         margin-right: 15px;
                         padding: 5px;
@@ -108,6 +112,9 @@ main {
                     text-decoration: none;
                     padding: 0;
 
+                    .container-filtros-li:hover {
+                        background-color: #ffeecc;
+                    }
                     .container-filtros-li {
                         display: flex;
                         margin-right: 15px;

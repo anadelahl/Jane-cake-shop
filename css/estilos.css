@@ -405,6 +405,8 @@ main {
         display: block;
         justify-items: start;
         margin-top: 0; }
+        main .productos .grid-container .items-container-lista .container-lista .container-lista-li:hover {
+          background-color: #ffeecc; }
         main .productos .grid-container .items-container-lista .container-lista .container-lista-li {
           margin-right: 15px;
           padding: 5px;
@@ -434,6 +436,8 @@ main {
         justify-content: space-evenly;
         text-decoration: none;
         padding: 0; }
+        main .productos .grid-container .container-filtros .container-lista-filtros .container-filtros-li:hover {
+          background-color: #ffeecc; }
         main .productos .grid-container .container-filtros .container-lista-filtros .container-filtros-li {
           display: flex;
           margin-right: 15px;
