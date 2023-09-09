@@ -188,29 +188,11 @@
             .grid-productos{
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
             
             .cakes {
-                margin-left: 30px;
-                margin-right: 30px;
                 align-content: center;
-
-
-                .img {
-                    height: 100%;
-                    width: 100%;
-                    text-align: center;
-                    padding: 0;
-                    margin-bottom: 5px;
-                    flex-wrap: wrap;
-                }
-        }
-        .productos-descripcion {
-            display: flex;
-            margin-right: 10px;
-            margin-left: 10px;
-            padding: 5px;
-            align-content: center;
-            
+    
     }
     }
 }

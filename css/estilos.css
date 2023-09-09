@@ -133,23 +133,9 @@
     grid-area: main-container; }
     main .mirarproductos .grid-productos {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      align-items: center; }
       main .mirarproductos .grid-productos .cakes {
-        margin-left: 30px;
-        margin-right: 30px;
-        align-content: center; }
-        main .mirarproductos .grid-productos .cakes .img {
-          height: 100%;
-          width: 100%;
-          text-align: center;
-          padding: 0;
-          margin-bottom: 5px;
-          flex-wrap: wrap; }
-      main .mirarproductos .grid-productos .productos-descripcion {
-        display: flex;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding: 5px;
         align-content: center; } }
 
 header {
@@ -529,35 +515,28 @@ main {
       justify-items: start;
       align-items: start;
       position: static;
-      justify-content: space-evenly; }
+      justify-content: center; }
       main .mirarproductos .grid-productos .cakes {
-        text-align: center;
-        padding: 5px;
-        margin-left: 50px;
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 0;
         height: 100%;
         width: 100%;
         flex-wrap: wrap;
         display: flex;
+        align-items: center;
         justify-content: flex-start; }
         main .mirarproductos .grid-productos .cakes .img {
           height: 100%;
           width: 100%;
-          text-align: center;
           padding: 0;
-          margin-bottom: 5px;
+          margin: 0;
           flex-wrap: wrap; }
-        main .mirarproductos .grid-productos .cakes .h3-img {
-          color: #30230a;
-          text-align: start;
-          font-size: 50px;
-          margin-top: 5px;
-          padding: 0;
-          font-family: 'Francois one', sans-serif; }
       main .mirarproductos .grid-productos .productos-descripcion {
         text-align: start;
         padding: 10px;
-        margin-bottom: 0;
-        margin-right: 50px;
+        margin-bottom: 10px;
+        margin-right: 0;
         margin-left: 10px;
         height: 100%;
         width: 100%;
@@ -575,7 +554,7 @@ main {
           font-family: 'Francois one', sans-serif; }
         main .mirarproductos .grid-productos .productos-descripcion .p-descripcion {
           color: #30230a;
-          font-size: 29px;
+          font-size: 30px;
           margin: 5px;
           padding: 5px;
           font-family: 'Jacques Francois', serif; }

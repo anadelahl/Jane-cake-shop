@@ -14,43 +14,33 @@ main {
             justify-items: start;
             align-items: start;
             position: static;
-            justify-content: space-evenly;
+            justify-content: center;
 
             .cakes {
-                text-align: center;
-                padding: 5px;
-                margin-left: 50px;
+                padding: 0;
+                margin-left: 10px;
+                margin-right: 0;
                 height: 100%;
                 width: 100%;
                 flex-wrap: wrap;
                 display: flex;
+                align-items: center;
                 justify-content: flex-start;
 
                 .img {
                     height: 100%;
                     width: 100%;
-                    text-align: center;
                     padding: 0;
-                    margin-bottom: 5px;
+                    margin: 0;
                     flex-wrap: wrap;
                 }
-
-                .h3-img {
-                    color: #30230a;
-                    text-align: start;
-                    font-size: 50px;
-                    margin-top: 5px;
-                    padding: 0;
-                    font-family: 'Francois one', sans-serif;
-                }
-
             }
 
             .productos-descripcion {
                 text-align: start;
                 padding: 10px;
-                margin-bottom: 0;
-                margin-right: 50px;
+                margin-bottom: 10px;
+                margin-right: 0;
                 margin-left: 10px;
                 height: 100%;
                 width: 100%;
@@ -71,7 +61,7 @@ main {
 
                 .p-descripcion {
                     color: #30230a;
-                    font-size: 29px;
+                    font-size: 30px;
                     margin: 5px;
                     padding: 5px;
                     font-family: 'Jacques Francois', serif;
