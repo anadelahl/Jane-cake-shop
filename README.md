@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Anadela Hernandez</h1>
+<h1 align="center">Hi 👋, I'm Anadela Hernández</h1>
 <h3 align="center">A passionate frontend developer from Colombia</h3>
 
 - 📫 How to reach me *anadelahernandez74@gmail.com*
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/anadela-hern%c3%a1ndez-8b41a623a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anadela-hern%c3%a1ndez-8b41a623a" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/anadela-hern%c3%a1ndez-8b41a623a(https://www.linkedin.com/in/anadela-hern%C3%A1ndez/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anadela-hern%c3%a1ndez-8b41a623a" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
